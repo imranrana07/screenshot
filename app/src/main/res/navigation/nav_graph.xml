@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.test.meldcx.ui.home.view.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.test.meldcx.ui.webview.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.test.meldcx.ui.search.view.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_history_search" />
+
+</navigation>

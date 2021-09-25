@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.supercharge.shimmerlayout.ShimmerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/sLayout"
+    android:visibility="gone">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include layout="@layout/item_shimmer_layout"/>
+    <include layout="@layout/item_shimmer_layout"/>
+    <include layout="@layout/item_shimmer_layout"/>
+    <include layout="@layout/item_shimmer_layout"/>
+    <include layout="@layout/item_shimmer_layout"/>
+    <include layout="@layout/item_shimmer_layout"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</io.supercharge.shimmerlayout.ShimmerLayout>

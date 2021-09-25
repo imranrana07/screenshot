@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MeldCX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_valid_url">please enter valid url</string>
+    <string name="go">Go</string>
+    <string name="capture">Capture</string>
+    <string name="webview">WebView</string>
+    <string name="history">History</string>
+    <string name="back">Back</string>
+    <string name="no_data_found">** No data found **</string>
+</resources>

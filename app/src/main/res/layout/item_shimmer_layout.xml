@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_16"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_product"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCateName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/iv_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#e7e7e7"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginHorizontal="@dimen/dp_16"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFakeName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/tvCateName"
+        app:layout_constraintStart_toEndOf="@id/iv_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:maxLines="1"
+        android:background="#e7e7e7"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginHorizontal="@dimen/dp_16"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFakeName1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        app:layout_constraintTop_toBottomOf="@id/tvFakeName"
+        app:layout_constraintStart_toEndOf="@id/iv_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#e7e7e7"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginHorizontal="@dimen/dp_16"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
